@@ -1,0 +1,6 @@
+# configuration file for building snapshots and releases with jitpack.io
+#before_install:
+#  - yes | sdkmanager "cmake;3.10.2.4988404"
+#  - sudo apt-get -y install gcc-8
+before_install:
+  - ./startup_script.sh
